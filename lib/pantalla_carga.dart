@@ -20,10 +20,12 @@ class  PantallaCargaState extends State<PantallaCarga> {
       navigateAfterSeconds: Categorias(),
       title: Text(
         'One Piece',
-        style: GoogleFonts.abel(
-          fontWeight: FontWeight.bold,
-          fontSize: 70,
-          color: Colors.yellow[800],
+        style: GoogleFonts.robotoSlab(
+          textStyle: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 70,
+            color: Colors.yellow[800],
+          ),
         ),
       ),
 
