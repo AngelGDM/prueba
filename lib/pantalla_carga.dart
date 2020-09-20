@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:onepiecewiki/categorias.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 
@@ -20,14 +19,12 @@ class  PantallaCargaState extends State<PantallaCarga> {
       navigateAfterSeconds: Categorias(),
       title: Text(
         'One Piece',
-        style: GoogleFonts.robotoSlab(
-          textStyle: TextStyle(
+        style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 70,
             color: Colors.yellow[800],
           ),
         ),
-      ),
 
       image: Image.asset('assets/mugi.png'),
       photoSize: 120,
